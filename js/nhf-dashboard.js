@@ -96,18 +96,18 @@
     // Salse & Revenue Chart
     var ctx2 = $("#salse-revenue1").get(0).getContext("2d");
     var myChart2 = new Chart(ctx2, {
-        type: "line",
+        type: "bar",
         data: {
             labels: ["November 21", "December 21", "January", "Febuary", "March", "April", "May"],
             datasets: [{
-                    label: "Target",
-                    data: [13, 10, 75, 43, 80, 50, 59],
+                    label: "No. of conflict affected out of school children accessing education",
+                    data: [90, 80, 75, 63, 80, 50, 59],
                     backgroundColor: "rgba(235, 22, 22, .7)",
                     fill: true
                 },
                 {
-                    label: "Reached",
-                    data: [99, 135, 170, 130, 190, 180, 270],
+                    label: "No. of teachers trained in improved teaching approaches",
+                    data: [24, 70, 70, 30, 80, 50, 50],
                     backgroundColor: "rgba(235, 22, 22, .5)",
                     fill: true
                 }
@@ -152,15 +152,13 @@
         data: {
             labels: ["November 21", "December 21", "January", "Febuary", "March", "April", "May"],
             datasets: [{
-                backgroundColor: [
-                    "rgba(235, 22, 22, .7)",
-                    "rgba(235, 22, 22, .6)",
-                    "rgba(235, 22, 22, .5)",
-                    "rgba(235, 22, 22, .4)",
-                    "rgba(235, 22, 22, .3)"
-                ],
-                label: "No of Tombrown group supported",
+                backgroundColor: "rgba(235, 22, 22, .7)",
+                label: "No of New MAM cases admitted for treatment",
                 data: [55, 49, 44, 24, 15, 12, 8]
+            },{
+                label: "No. of Tombrown group formed",
+                backgroundColor:  "rgba(235, 22, 22, .3)",
+                data: [40, 29, 14, 24, 14, 10, 8]
             }]
         },
         options: {
