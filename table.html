@@ -46,7 +46,7 @@
         <div class="sidebar pe-4 pb-3">
             <nav class="navbar bg-secondary navbar-dark">
                 <a href="index.html" class="navbar-brand mx-4 mb-3">
-                    <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>DarkPan</h3>
+                    <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>SCoN MEAL</h3>
                 </a>
                 <div class="d-flex align-items-center ms-4 mb-4">
                     <div class="position-relative">
@@ -54,23 +54,23 @@
                         <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
                     </div>
                     <div class="ms-3">
-                        <h6 class="mb-0">Jhon Doe</h6>
+                        <h6 class="mb-0">Ifeanyi</h6>
                         <span>Admin</span>
                     </div>
                 </div>
                 <div class="navbar-nav w-100">
-                    <a href="index.html" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+                    <a href="scon-dashboard.html" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>SCoN Dashboard</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>Elements</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>Sub Dashboards</a>
                         <div class="dropdown-menu bg-transparent border-0">
-                            <a href="button.html" class="dropdown-item">Buttons</a>
-                            <a href="typography.html" class="dropdown-item">Typography</a>
-                            <a href="element.html" class="dropdown-item">Other Elements</a>
+                            <a href="nhf-dashboard.html" class="dropdown-item">NHF Dashbord</a>
+                            <a href="giz-dashboard.html" class="dropdown-item">GIZ Dashboard</a>
+                            <a href="eu-dashboard.html" class="dropdown-item">EU Dashboard</a>
                         </div>
                     </div>
                     <a href="widget.html" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Widgets</a>
-                    <a href="form.html" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Forms</a>
-                    <a href="table.html" class="nav-item nav-link active"><i class="fa fa-table me-2"></i>Tables</a>
+                    <a href="form.html" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Create Project</a>
+                    <a href="table.html" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Indicators</a>
                     <a href="chart.html" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Charts</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="far fa-file-alt me-2"></i>Pages</a>
@@ -183,9 +183,9 @@
             <!-- Table Start -->
             <div class="container-fluid pt-4 px-4">
                 <div class="row g-4">
-                    <div class="col-sm-12 col-xl-6">
-                        <div class="bg-secondary rounded h-100 p-4">
-                            <h6 class="mb-4">Basic Table</h6>
+                    <!-- <div class="col-sm-12 col-xl-6"> -->
+                        <!-- <div class="bg-secondary rounded h-100 p-4"> -->
+                            <!-- <h6 class="mb-4">Basic Table</h6>
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -287,8 +287,8 @@
                                 </tbody>
                             </table>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-xl-6">
+                    </div> -->
+                    <!-- <div class="col-sm-12 col-xl-6">
                         <div class="bg-secondary rounded h-100 p-4">
                             <h6 class="mb-4">Color Table</h6>
                             <table class="table table-dark">
@@ -323,8 +323,8 @@
                             </table>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-xl-6">
-                        <div class="bg-secondary rounded h-100 p-4">
+                    <div class="col-sm-12 col-xl-6"> -->
+                        <!-- <div class="bg-secondary rounded h-100 p-4">
                             <h6 class="mb-4">Bordered Table</h6>
                             <table class="table table-bordered">
                                 <thead>
@@ -392,50 +392,62 @@
                                 </tbody>
                             </table>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-12">
                         <div class="bg-secondary rounded h-100 p-4">
-                            <h6 class="mb-4">Responsive Table</h6>
+                            <h6 class="mb-4">CP Indicators Table</h6>
                             <div class="table-responsive">
                                 <table class="table">
                                     <thead>
                                         <tr>
-                                            <th scope="col">#</th>
-                                            <th scope="col">First Name</th>
-                                            <th scope="col">Last Name</th>
-                                            <th scope="col">Email</th>
-                                            <th scope="col">Country</th>
-                                            <th scope="col">ZIP</th>
-                                            <th scope="col">Status</th>
+                                            <th scope="col">Indicator Code</th>
+                                            <th scope="col">Indicator Name</th>
+                                            <th scope="col">Target</th>
+                                            <th scope="col">Reached</th>
+                                            <th scope="col">Boys</th>
+                                            <th scope="col">Girls</th>
+                                            <th scope="col">Male</th>
+                                            <th scope="col">Female</th>
+                                            <th scope="col">Beneficiary Status</th>
+                                            <th scope="col">Disability Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <th scope="row">1</th>
-                                            <td>John</td>
-                                            <td>Doe</td>
-                                            <td>jhon@email.com</td>
-                                            <td>USA</td>
-                                            <td>123</td>
-                                            <td>Member</td>
+                                            <td>2.2.1</td>
+                                            <td>No. of UASC placed in alt care</td>
+                                            <td>300</td>
+                                            <td>50</td>
+                                            <td>30</td>
+                                            <td>0</td>
+                                            <td>0</td>
+                                            <td>IDPs</td>
+                                            <td>None</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">2</th>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>mark@email.com</td>
-                                            <td>UK</td>
-                                            <td>456</td>
-                                            <td>Member</td>
+                                            <td>1.2.2</td>
+                                            <td>No. of UASC benefiting from </td>
+                                            <td>300</td>
+                                            <td>50</td>
+                                            <td>30</td>
+                                            <td>0</td>
+                                            <td>0</td>
+                                            <td>IDPs</td>
+                                            <td>None</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">3</th>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>jacob@email.com</td>
-                                            <td>AU</td>
-                                            <td>789</td>
-                                            <td>Member</td>
+                                            <td>3.2.1</td>
+                                            <td>No. of seperated children case managed</td>
+                                            <td>300</td>
+                                            <td>50</td>
+                                            <td>30</td>
+                                            <td>0</td>
+                                            <td>0</td>
+                                            <td>IDPs</td>
+                                            <td>None</td>
                                         </tr>
                                     </tbody>
                                 </table>
